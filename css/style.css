@@ -79,43 +79,37 @@ header{
 .tiny{text-align: right;font-size:12px;}
 .divider{
     background-color:#4A4A4A;
-    padding:60px;
-    color:#ffffff;
-    text-align: justify;
-    font-size: 130%;
-    line-height: 150%;
-    font-weight:300;
-    font-family: 'Open Sans', sans-serif;
 }
 
 hr{
     background-color: #d8d8d8; 
     height: 1px; 
     border: 0; 
-   
-}
+ }
 
-drawline {
+.drawline {
   line-height: 1;
   text-align: center;
 }
-.drawline span {
+
+.drawline  {
   display: inline-block;
   position: relative;  
 }
-.drawline span:after {
+
+h3:after {
   content: "";
   position: absolute;
   height: 22px;
-  border-right: 6px solid #AB1A1A;
+  border-left: 6px solid #AB1A1A;
   top: 0;
 
 }
 
-.drawline span:after {
+h3:after {
   left: 100%;
   margin:0 15px;
-}
+} 
 /*-------- home section  -------------*/
 
 #home{
@@ -155,6 +149,8 @@ drawline {
 #about{margin:20px 0;}
 
 #about p{
+    padding-top:20px;
+    border-top: 1px solid #d8d8d8;
 	text-align: justify;
 }
 
@@ -225,18 +221,25 @@ h1{ /*text over main image */
     
 }
 
-h2{
-    font-size:250%;
-    color:#737573;
-    text-align: center; 
+h2{/*divider copy */
+    font-size:120%;
+    padding:60px;
+    color:#ffffff;
+    text-align: justify;
+    line-height: 200%;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 200;
+   
 }
 
 h3{
-    max-width: 400px;
+    /*width:100%; */
     font-variant: small-caps; 
-    margin-bottom: 30px;
+   
+    padding-bottom: 10px;
     font-weight: 400;
     font-family:'Avenir Next', sans-serif;
+    text-align: left !important;
 }
 
 h4{	/*subtitles */
