@@ -1,0 +1,346 @@
+body{
+	font-family: 'Avenir Next', sans-serif;
+    color:#606260;
+  
+    line-height: 175%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+a, a:hover{text-decoration: none; cursor:pointer;}
+
+header{
+    background: #ffffff;
+   
+}
+
+.underground{position: relative;}
+/*-------- nav-bar   -------------*/
+.nav-bar{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  margin-top:30px;
+}
+
+.nav-bar li{ 
+    padding:0;
+    list-style: none; 
+    display:inline-block; 
+ 	flex: 1;
+  	text-align: center;
+  	padding: 24px;
+}
+
+.nav-bar a {
+	color:#737573;
+    font-family:'Avenir Next', sans-serif;
+    font-size:110%;
+    margin-left:30px;
+    text-transform: uppercase;
+    
+}
+
+.nav-bar a:hover{
+	text-decoration:none;
+}
+
+.nav-bar a.selected{ 
+    padding-bottom: 5px; 
+    border-bottom:2px solid #AB1A1A;}
+
+/*-------- display section  -------------*/
+
+#display{
+    position:relative;
+}
+
+#display img{ 
+   	width:100%;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    object-position: center;  
+   }
+.pushleft{text-align: left; top:40%; font-size:220%;margin-left:20px;}
+
+/*------------ misc sections ---------- */
+
+.social{
+   float:right;
+}
+
+.logo{margin:0; padding:0; width:34%; }
+.tiny{text-align: right;font-size:12px;}
+.divider{
+    background-color:#4A4A4A;
+    padding:60px;
+    color:#ffffff;
+    text-align: justify;
+    font-size: 130%;
+    line-height: 150%;
+    font-weight:300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    background-color: #d8d8d8; 
+    height: 1px; 
+    border: 0; 
+   
+}
+
+drawline {
+  line-height: 1;
+  text-align: center;
+}
+.drawline span {
+  display: inline-block;
+  position: relative;  
+}
+.drawline span:after {
+  content: "";
+  position: absolute;
+  height: 22px;
+  border-right: 6px solid #AB1A1A;
+  top: 0;
+
+}
+
+.drawline span:after {
+  left: 100%;
+  margin:0 15px;
+}
+/*-------- home section  -------------*/
+
+#home{
+	margin:20px 0;
+} 
+
+#home p{
+    display:block;
+    text-align: justify;
+	}
+
+.line{
+	border-right:1px #737573 solid; 
+   /* height:200px;
+    margin:60px 0;*/
+}
+
+.event_peek{
+    border-left:10px solid #AB1A1A;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    border-right: 1px solid #979797;
+    max-width: 200px;
+    font-weight: 600;
+    padding:6px 20px;
+	text-transform: uppercase;
+    color:#ab1a1a;
+    margin-bottom:20px;
+    letter-spacing: 1px;
+    font-size:120%;
+    
+}
+.event_peek p{color:#737573;margin:0;font-size:90%;font-weight:400;}
+
+/*-------- about section  -------------*/
+
+#about{margin:20px 0;}
+
+#about p{
+	text-align: justify;
+}
+
+/*-------- members section  -------------*/
+
+#members p{ text-align: center;}
+
+#members img{display:block;margin:0 auto;}
+
+/*-------- projects section  -------------*/
+
+#projects{
+	margin:60px 0 60px 0;
+}
+
+#projects img {
+    display:inline-block;
+    vertical-align: middle;
+    margin-top:40px;   
+}
+
+#projects img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#projects h3{
+	text-align: left;
+}
+
+#projects p{
+	font-size:1em;
+    text-align: left; 
+    max-width: 300px;
+    display:inline-block;
+}
+/*-------- contact section  -------------*/
+#contact{
+	padding:100px 0 100px 0;
+}
+
+#contact p{
+    font-size:1em;
+    text-align: center; 
+    max-width: 400px;
+    display:block;}
+
+#contact h3{
+	text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom:2px solid #4DB9C1;
+}
+/*-------- headings  -------------*/
+
+h1{ /*text over main image */
+    position: absolute; 
+   	top: 35%; 
+   	left: 0;
+   	width: 100%;
+   	color:#ffffff;
+  	font-family:'Avenir Next', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+	padding:14px;
+    text-align: center;
+    
+}
+
+h2{
+    font-size:250%;
+    color:#737573;
+    text-align: center; 
+}
+
+h3{
+    max-width: 400px;
+    font-variant: small-caps; 
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family:'Avenir Next', sans-serif;
+}
+
+h4{	/*subtitles */
+    max-width: 400px;
+    font-variant: small-caps;
+    margin: 20px 0;
+    font-weight: 400;
+    text-align: center;
+    
+}
+h4 span{
+    color:#ab1a1a;
+    top: 0;
+    font-weight: 200;
+    font-size: 90%;
+}
+
+h4 span::before{content:"\a";
+    white-space:pre;}
+
+b{
+	color:#737573;
+}
+
+form label{
+	color:#737573;
+}
+
+button{ 
+	background-color:#ffffff !important;
+    color:#AB1A1A !important;
+    border:1px solid #737573 !important;
+    border:1px solid #AB1A1A!important;
+    text-transform: uppercase !important;
+    font-size:12px !important;
+    margin: 10px 0 !important;
+   
+}
+
+/*-------- footer  -------------*/
+footer{
+	background:#ffffff;
+    text-align: center;
+    color:#737573;
+    height:100px;
+   	padding-top:20px;
+    margin-top:10px;
+    border-top:1px solid #d8d8d8;
+}
+
+.nav-footer{list-style-type: none; margin:0;padding:0px;}
+.nav-footer li{text-align: left;}
+.nav-footer li a{ color:#737573;text-decoration: none;}
+
+
+.thankyou{
+	max-width:420px;
+    background: #737573;
+    color:#ffffff;
+    margin:0 auto;
+    padding:40px;
+}
+
+.thankyou p{text-align: center!important;}
+.errortext{color:#f79120;}
+a.error_note {text-decoration: none;}
+
+
+    
+   .thankyou h4{ 
+       color:#4db9c1; 
+       text-align: center;  
+       font-size:200%;
+       margin:0 auto;
+       font-weight: bold;
+       margin-top:20px;
+}
+
+ .btnback{
+     	font-size: 14px;
+     	text-align: center;
+     	white-space: nowrap;
+    	vertical-align: middle;
+     	cursor: pointer;
+     	border-radius: 4px;
+		display: block; 
+    	margin:0 auto; 
+     	padding:4px 10px;
+    	background:#4DB9C1;!important;
+     	border:1px solid #4db9c1;
+     	color:#ffffff;
+}
+
+
+
+@media only screen and (max-width : 767px) { /* mobile up to 767px wide --------------------- */
+    
+    .logo{width:30%; height:auto; display: block; margin:0 auto; margin-top:10px;}
+    .nav-bar li{padding: 14px;}
+    .nav-bar a { margin-left:0px;font-size:100%;}
+
+	#about{margin:30px 0 30px 0;}
+    #about div{margin-bottom:30px;}
+    #about div:nth-of-type(2){display:none;}
+    #about img, #services img{ width:20%; height:auto;}
+    #services, #services h3, #services p.description {text-align:center;}
+} 
