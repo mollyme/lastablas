@@ -221,7 +221,19 @@ button{
     text-align: left; 
     
 }
-.event_peek p{color:#737573;margin:0;font-size:70%;font-weight:400; text-align: left;}
+.event_peek p{
+    color:#737573;
+    margin:0;
+    font-size:70%;
+    font-weight:400; 
+    text-align: left;
+}
+
+.event_image{
+	border: 1px solid #979797;
+    margin-bottom:20px;
+}
+
 
 /*-------- about section  -------------*/
 
