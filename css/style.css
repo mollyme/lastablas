@@ -117,7 +117,7 @@ h3:after {
 
 h1{ /*text over main image */
     position: absolute; 
-   	top: 43%; 
+   	top: 40%; 
    	left: 10%;
    	width: 100%;
    	color:#ffffff;
@@ -163,7 +163,7 @@ h4{	/*subtitles */
 h4 span{
     color:#ab1a1a;
     top: 0;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 90%;
 }
 
