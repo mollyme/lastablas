@@ -11,7 +11,7 @@ img {
     width: auto\9; /* ie8 */
 }
 
-a, a:hover{text-decoration: none; cursor:pointer;}
+a, a:hover, a:active, a:visited{text-decoration: none; cursor:pointer;}
 
 header{
     background: #ffffff;
@@ -48,7 +48,7 @@ header{
     
 }
 
-.nav-bar a:hover{
+.nav-bar a:hover, .nav-bar a:active, .nav-bar a:visited{
 	text-decoration:none;
 }
 
