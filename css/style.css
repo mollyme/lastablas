@@ -261,22 +261,16 @@ button{
    
 }
 
+.frame{padding:5px;}
  #programs img {
     display:inline-block!important;
     width: 100%;
-    margin-top:20px;
-    /*opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier  */
+    /*margin-top:20px; */
     position:relative;
     text-align: center; 
+     margin:0px;
 }
-/*
-#programs img:hover {
-    opacity: 0.5;
-    background-color:#ab1a1a;
-    filter: alpha(opacity=100); /* For IE8 and earlier 
-}
-*/
+
 
 .cover{
 	position: absolute;
@@ -287,22 +281,31 @@ button{
     background-color:#ab1a1a;
     top:0px;
   	left:0px;
+    /* opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier  */
     display:none; 
-    color:#ffffff;
-
 }
 
 .frame:hover >.cover {display:inline-block;}
 
+.caption{
+	position:relative;
+    margin:0 auto;
+    top:45%;
+    font-size:160%;
+    color:#fff;
+    font-weight:bold;
+    text-align: center;
+    line-height: 120%;
+    padding:0 10px;
 
-.caption {
-    position: absolute;
-   	top: 45%;
-    left: 0; 
+}
+.prog_descr {
+    position: relative;
+   	padding:10px;
     width: 100%;
-    color:#ffffff;!important;
-   
- 
+    color:#ffffff;
+    text-align: center;
 }
 
 
@@ -315,17 +318,7 @@ button{
 
 
 
-#programs p{
-    text-align: center; 
-   text-transform: uppercase;
-    color:#000;
- 
-     position:absolute;
-    top:45%; 
-    left:0%;
-    
-   
-}
+
 
 
 /* The Modal (background) */
