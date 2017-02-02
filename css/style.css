@@ -64,6 +64,7 @@ header{
 
 #display img{ 
    	width:100%;
+   /* max-height: 427px;/*
     filter: alpha(opacity=50); /* For IE8 and earlier */
     object-position: center;  
    }
@@ -97,7 +98,7 @@ drawline {
   position: relative;  
 }
 
-h3::after {
+h1::after {
   content: "";
   position: absolute;
   height: 22px;
@@ -106,7 +107,7 @@ h3::after {
 
 }
 
-h3:after {
+h1:after {
   left: 100%;
   margin:0 15px;
 } 
@@ -115,24 +116,24 @@ h3:after {
 
 /*-------- headings  -------------*/
 
-h1{ /*text over main image */
+h3{ /*text over main image */
     position: absolute; 
    	top: 40%; 
-   	left: 10%;
    	width: 100%;
    	color:#ffffff;
   	font-family:'Avenir Next', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1.5px;
-    line-height: 1.2em;
-    text-align: left;
-    font-size: 260%;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 100%;
+   
     
 }
 
 h2{/*divider copy */
-    font-size:120%;
+    font-size:100%;
     padding:60px;
     color:#ffffff;
     text-align: justify;
@@ -142,14 +143,15 @@ h2{/*divider copy */
    
 }
 
-h3{
+h1{
     /*width:100%; */
     font-variant: small-caps; 
-    
     padding-bottom: 10px;
     font-weight: 400;
     font-family:'Avenir Next', sans-serif;
     text-align: left !important;
+    font-size: 150%;
+    
 }
 
 h4{	/*subtitles */
@@ -307,7 +309,7 @@ button{
 
 #contact p{
     font-size:1em;
-    text-align: center; 
+    text-align: left; 
     display:block;
     padding-bottom: 10px;
 }
