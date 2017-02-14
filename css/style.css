@@ -191,6 +191,11 @@ button{
    
 }
 
+button:hover{
+    background-color:#AB1A1A !important;
+	color:#ffffff !important;
+}
+
 /*-------- home section  -------------*/
 
 #home{
@@ -441,13 +446,13 @@ a.error_note {text-decoration: none;}
 
 @media only screen and (max-width : 767px) { /* mobile up to 767px wide --------------------- */
     
-    .logo{width:30%; height:auto; display: block; margin:0 auto; margin-top:10px;}
+    .logo{width:20%; height:auto; display: block; margin:0 auto; margin-top:10px;}
     .nav-bar li{padding: 14px;}
     .nav-bar a { margin-left:0px;font-size:100%;}
 
-	#about{margin:30px 0 30px 0;}
-    #about div{margin-bottom:30px;}
+	#about{margin:20px 0 30px 0;}
+    #about div{margin-bottom:10px;}
     #about div:nth-of-type(2){display:none;}
-    #about img, #services img{ width:20%; height:auto;}
-    #services, #services h3, #services p.description {text-align:center;}
+    #about img, #program img{ width:20%; height:auto;}
+    #program, #program h3, #program p.description {text-align:center;}
 } 
