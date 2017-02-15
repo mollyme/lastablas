@@ -8,13 +8,14 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400" rel="stylesheet">
-   
 
-   <link rel="stylesheet" href="css/style.css?v=6"> 
+   <link rel="stylesheet" href="css/style.css?v=1"> 
 </head>
 <body>
     <div class="container">
+
              <header>
+                     	
                 <div class="row">
         			<div class="col-md-3">
             		<a href="index.html" title="home"><img src="images/logo.png" alt="lastablas_logo" class="logo"></a>
@@ -23,14 +24,14 @@
                 	<nav>
         				<ul class="nav-bar">
                         	<li class="hidden active"><a href="#pagetop"></a> </li>
-                            <li><a class="page-scroll"href="about.html">about</a></li>
-                            <li><a class="page-scroll" href="projects.html">projects</a></li>
-                            <li><a class="page-scroll" href="programs.html">programs</a></li>
-                            <li><a class="page-scroll selected" href="contact.html">contact</a></li>
+                            <li><a class="page-scroll" href="about.html" title="about">about</a></li>
+                            <li><a class="page-scroll selected" href="projects.html" title="projects">projects</a></li>
+                            <li><a class="page-scroll" href="programs.html" title="programs" >programs</a></li>
+                            <li><a class="page-scroll" href="contact.html" title="contact">contact</a></li>
          				</ul>
                		</nav> 
                 </div>
-             <div class="col-md-3">
+             	<div class="col-md-3">
                      <a href="https://www.linkedin.com/in/yolanny-rodriguez-torres-185b59a" title="linkedin_link"><img src="images/linkedin.png" alt="linkedin" class="social"/></a>
                     <a href="https://www.twitter.com/teatrolastablas" title="twitter_page"><img src="images/twitter.png" alt="twitter" class="social"/></a>
                     <a href="https://www.facebook.com/LasTablasNYC/" title="fb_account"><img src="images/facebook.png" alt="fb" class="social"/></a>
@@ -43,8 +44,8 @@
                 
             <div class="row">
                  <div id="display">
-      <img src="images/contact_.jpg" alt="keyboard" /> 
-                <!-- <h1>hello there</h1> -->
+      <img src="images/performer.png" alt="perfomer" /> 
+                <h3>community theater, off broadway and <br>travelling theater.</h3>
            
     		</div> 
          </div>
@@ -52,61 +53,31 @@
         </header> 
      <!-- end_of display image slogan -->   
      
-     <!-- contact section --> 
-       	<section id="contact">
+     <!-- projects section --> 
+       	<section id="projects">
     		<div class="row">
-       			<div class="col-md-4">
-             		<h1 class="drawline">stay in touch</h1>
-            		<p>Please feel free to drop us a line whether for work inquiries, critics, quick chat or even just to say hi. <br> Also be sure to follow us on facebook to keep up to date with all our projects, programs and activities.</p>
-                    </div>
-           
-          
-    		
-    		<a name="contact"></a>
-        		<div class="col-md-6">
-        			<form name="contactform" method="post" action="send_toemail.php">
-     					<div class="form-group">
-            				<label for="fullname">Full Name</label>
-            				<input name="full_name" type="fullname" class="form-control" id="name" aria-describedby="name"
-                  			placeholder="Enter name">
-          				</div>
-             			
-            			<div class="form-group">
-           					<label for="email">Email address</label>
-            				<input name="emailfrom" type="email" class="form-control" id="Email" aria-describedby="emailHelp"
-                			placeholder="Enter email">
-            				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
-               				</small>
-          				</div>
-          				<div class="form-group">
-           	 				<label for="Textarea">Message</label>
-           	 				<textarea name="inquiry" class="form-control" id="message" rows="3" placeholder="Say hi, ask us a question or any information you need about us or our work."></textarea>
-          				</div>
-						<button type="submit" class="btn btn-primary">Send</button>
-        			</form>
-        		</div>
+       			<div class="col-md-5">
+             		<h1 class="drawline">projects</h1>
+            		 <div class="event_peek">Soledad Bravo <p>March 12th, 6:30pm</p></div>
+               
+                <p>&quot;Su voz es un instrumento excepcional &quot;,<b>The New York Times</b><br>
+                    &quot;Su voz recoge, el registro es extenso, su aliento sorprendente&quot;,<b>Le Figaro, Paris</b><br>
+                    &quot;Una cantante como la copa de un pino&quot;, <b>El Pa&iacute;s, Madrid</b><br>
+                    &quot;Deslumbrante&quot;, <b>Clar&iacute;n, Buenos Aires</b><br>
+                    
+                    &quot;Una mujer genial&quot;, <b>Diario 16, Madrid</b><br></p>
+                    <a href="projects.html">
+         		</div>
+                <div class="col-md-7"> <img src="images/soledad.jpg" title="soledad_postcard" class="event_image"/></div>
+               
+         		
     		</div>
-
+        </section>
+        <!-- end projects section --> 
         
         
-    </section> 
-         <!-- end of section --> 
-            <!-- contact information -->
-            <div class="row">
-                <div class="col-md-4 contact-info">
-                    <p><br>
-                    Teatro Las Tablas<br>
-					11 Broadway Terrace Apt 3D <br>
-					New York, NY, 10040 <br><br>
-					info@teatrolastablas.com<br>
-                    (212) 569.1115
-					</p>
-                </div>
-                <div class="col-md-8">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4760.511544487988!2d-73.93379502788066!3d40.858141170988205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f403408dcdcf%3A0x4da16681bee26e2c!2s11+Broadway+Terrace%2C+New+York%2C+NY+10040!5e0!3m2!1sen!2sus!4v1480886047741" width="100%" height="178px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-           </div>
-
+        
+       
 	<footer>
         <div class="row">
             <div class="col-md-2">

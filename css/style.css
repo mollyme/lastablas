@@ -242,15 +242,17 @@ button:hover{
 }
 
 
-/*-------- about section  -------------*/
+/*-------- about & projects section  -------------*/
 
-#about{margin:20px 0;}
+#about, #projects{margin:20px 0;}
 
-#about p{
+#about p, 
     padding-top:20px;
     border-top: 1px solid #d8d8d8;
 	text-align: justify;
 }
+
+
 
 /*-------- members section  -------------*/
 
