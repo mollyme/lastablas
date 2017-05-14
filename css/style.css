@@ -1,3 +1,7 @@
+/* teatrolastablas stylesheet */
+/* spring 2017 */
+
+
 body{
 	font-family: 'Avenir Next', sans-serif;
     color:#606260;
@@ -12,6 +16,7 @@ img {
 }
 
 a, a:hover, a:active, a:visited{text-decoration: none; cursor:pointer;}
+a.red{color:#AB1A1A;}
 
 header{
     background: #ffffff;
